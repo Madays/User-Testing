@@ -1,0 +1,14 @@
+@media screen and (max-width:768px){
+    section.banner .text-banner{    
+    position: absolute;
+    top: 100px; 
+    width: 100%;
+    text-align: center;   
+    color: #fff; 
+    font-size: 30px;
+}
+
+}
+@media screen and (min-width:769px){
+
+}
