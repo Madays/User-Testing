@@ -2,15 +2,55 @@
 <html>
 <head>
   <title>Contacto</title>
-  <link rel="stylesheet" href="css/contacto.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/contacto.css">    
 </head>
 <body>
-<img src="image/large.jpg" alt="">
-<form action="">
-    <h1>FORMULARIO USER TESTING 360</h1>    
-    <p>Nombre <i>*</i> <input type="text"></p>
-    <p>Email <i>*</i> <input type="text"></p>
-    <p>Dejame tu URL <i>*</i> <input type="text"></p>
-</form>
+
+<div class="row container form">
+<div class="col-xs-8 col-xs-offset-2">
+    <h2 class="text-center">Formulario User Testing 360</h2>  
+    <form action="" class="row">
+        <div class="row elemento-fila">
+            <div class="col-xs-12 col-md-2">
+                <label for="">Nombre <i>*</i></label>    
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <input type="text" class="form-control">
+            </div>   
+        </div>
+        <div class="row elemento-fila">
+            <div class="col-xs-12 col-md-2">
+                <label for="">Email <i>*</i></label>    
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <input type="text" class="form-control">
+            </div>   
+        </div>
+        <div class="row elemento-fila">
+            <div class="col-xs-12 col-md-2">
+                <label for="">Deja tu URL <i>*</i></label>    
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <textarea class="form-control" rows="3"></textarea>
+            </div>                
+        </div>
+        <div class="row">
+            <div class="col-xs-8 col-md-offset-2">
+                <button type="submit" class="btn btn-primary">Enviar Email</button>
+                <input type="text" class="" id="input-final">    
+            </div>                
+        </div>                   
+    </form>
+    <footer>
+        <span class="text-left">
+            Powered by <span><a href="">Equipo de laboratoria</a></span>
+        </span>
+        <span class="text-right"><a href="">Report Abuse</a></span>
+    </footer>    
+</div>
+</div>
 </body>
 </html>
