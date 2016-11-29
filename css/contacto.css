@@ -1,0 +1,10 @@
+body{
+    /*background-image: url("../image/large.jpg");
+    background-repeat: no-repeat;
+    background-attachment: */
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+}
