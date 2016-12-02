@@ -1,14 +1,29 @@
 @media screen and (max-width:768px){
-    section.banner .text-banner{    
-    position: absolute;
-    top: 100px; 
-    width: 100%;
-    text-align: center;   
-    color: #fff; 
-    font-size: 30px;
+    #main-navigation{
+        background:  rgba(81, 114, 160,.6);
+    }
+    /*
+    */
+    .de-pagina{
+        text-align: center;
+    }
+    .footer-right{
+    text-align: center;
+    }
+    footer.de-pagina li{
+        padding: 0 10px;
+    }
 }
-
-}
-@media screen and (min-width:769px){
-
+@media screen and (min-width:769px) and (max-width:1000px){
+    header .row>div{
+		text-align: center;        
+    }  
+    header .row>div .img-responsive{
+        display: inline-block;    
+    }
+    .desktop-menu
+	{
+        text-align: center;
+	}
+    
 }
